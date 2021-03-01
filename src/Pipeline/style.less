@@ -1,0 +1,46 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.pipeline {
+  display: flex;
+  align-items: flex-start;
+}
+.job {
+  display: flex;
+  max-width: 160px;
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  &__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  &__name {
+    margin-right: auto;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+.stage {
+  &__title {
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+  }
+  &__content {
+    display: flex;
+  }
+}
+.connector {
+  width: 50px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
